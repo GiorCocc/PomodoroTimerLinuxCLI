@@ -33,7 +33,7 @@ change_pomo() {
   fi
 }
 
-alias doro=start_pomodoro
-alias wo="pomodoro 'work'"
-alias br="pomodoro 'break'"
-alias cp=change_pomo
+alias pomodoro=start_pomodoro
+alias work="pomodoro 'work'"
+alias break="pomodoro 'break'"
+alias change-pomodoro=change_pomo
